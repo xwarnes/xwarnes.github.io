@@ -79,7 +79,7 @@
 				</header>
 				<p>I'm a Postdoc at the <a href="https://woods.stanford.edu/"><span class="label"><pf> Stanford Woods Institute for the Environment</pf></span></a>, working with <a href="https://web.stanford.edu/~daniancu/"><span class="label"><pf>Dan Iancu</pf></span></a> and <a href="https://www.gsb.stanford.edu/faculty-research/faculty/erica-plambeck"> <span class="label"><pf>Erica Plambeck</pf></span></a>. I completed my PhD in 2021 at the <a href="https://www.gsb.stanford.edu"><span class="label"><pf> Stanford Graduate School of Business</pf></span></a>, (<a href="https://www.gsb.stanford.edu/faculty-research/faculty/academic-areas/operations-information-technology"><span class="label"><pf>OIT-group</pf></span></a>),
 					advised by Dan Iancu and <a href="https://www.gsb.stanford.edu/faculty-research/faculty/yonatan-gur"><span class="label"><pf> Yonatan Gur </pf></span></a>.
-					<br>My research addresses .
+					<br>My research combies responsible analytics and data-driven optimization to solve problems on sustainability and fairness. In particular, I'm interested in the design of <b>fair</b> and <b>efficient</b> mechanisms for decarbonizing agricultural supply chains.
 				</p>
 				</div>
 			</section>
@@ -96,7 +96,7 @@
 				</section>
 
 <!-- Working papers -->
-	<!-- <section id="seven">
+	 <section id="seven">
 		<header class="major">
 			<h5>Working Papers</h5>
 		</header>
@@ -108,157 +108,91 @@
 						<col class="mini" width="25%">
 					</tr>
 
+					
+
 					<tr class="parent">
 						<td>
-							<a href="Papers/tomas_jmp.pdf" class="title"><span class="label">Dynamic College Admissions</span></a>
-							<br><pd>Reject and Resubmit at Econometrica</pd>
+							<a class="title"><span class="label">Incentives and Requirements for Protecting Tropical Forests and Improving Smallholder Welfare</span></a>
 							<br><a href="#" id="abstract">+ Abstract</a>
 						</td>
 						<td class="ca">
-							<pc> with <a href="https://tlarroucau.github.io/"><span class="label"><pf>T. Larroucau</pf></span></a></pc>
+							<pc> with <a><span class="label">J. de Zegher, D. Iancu and E. Plambeck</span></a></pc>
 						</td>
 					</tr>
 					<tr>
 						<td colspan="2" align="justify">
 							<p>
-							We analyze the relevance of incorporating dynamic incentives and eliciting private information about students' preferences to improve their welfare and outcomes in dynamic centralized assignment systems. We show that the most common assignment mechanism, the Deferred Acceptance (DA) algorithm, can result in significant inefficiencies as it fails to elicit cardinal information on students' preferences. We collect novel data about students' preferences, their beliefs on admission chances, and their college outcomes for the Chilean college system. We analyze two main behavioral channels that explain students' dynamic decisions. First, by exploiting discontinuities on admission cutoffs, we show that not being assigned to ones' top-reported preference has a positive causal effect on the probability of re-applying to the centralized system and switching one's major/college, suggesting that students switch to more preferred programs due to initial mismatches. Second, we find that a significant fraction of students change their preferences during their college progression, and that these changes are correlated with their grades, suggesting that students may learn about their match-quality. Based on these facts, we build and estimate a structural model of students' college progression in the presence of a centralized admission system, allowing students to learn about their match-quality over time and re-apply to the system. We use the estimated model to disentangle how much of students' switching behavior is due to initial mismatches and learning, and we analyze the impact of changing the assignment mechanism and the re-application rules on the efficiency of the system. Our counterfactual results show that policies that provide score bonuses that elicit information on students' cardinal preferences and leverage dynamic incentives can significantly decrease switchings, dropouts, and increase students' overall welfare.
+								Many multinational organizations have made dual commitments to halt deforestation and improve farmers’ livelihoods in agricultural supply chains (Ellis and Weatherer 2022, Zhunusova 2022). These commitments are of key importance given the documented link between agricultural expansion and deforestation in developing countries (Carlson et al. 2018). This deforestation, in turn, leads to dire consequences for the ecosystem services provided by tropical forests, such as carbon storage, water regulation, and biodiversity.
+								Currently, many multinational organizations are attempting to prevent products harvested from illegally-deforested lands from entering the supply chains by mapping individual farmers (for an example in the oil palm value chain, see Musim Mas 2023). However, these mechanisms are very costly and impractical due to uncertain land titles and the large number of farmers involved.
+								In contrast, we propose group incentives conditional on forest protection requirements as an alternative mechanism to prevent deforestation while increasing farmer welfare. Group requirements are inspired by the literature on joint liability in microlending (Banerjee 2013), the literature on social forestry schemes (Rakatamaa 2020), and the insights we collected from field research in the palm oil supply chain in Indonesia. Therein, the rural landscape can be divided into contiguous areas or villages and, within each village, farmers may cooperate (at a cost) to prevent illegal deforestation or block production on recently-deforested land. This same social capital allows farmers to transfer utility among themselves, e.g., through labor-sharing or exchanging money or goods.
+								Motivated by these considerations, we construct a model of farmers who decide on how much to deforest and whether to cooperate to prevent deforestation. We prove structural results concerning the equilibrium outcomes and then calibrate the model using data we collected from field research in Indonesia, demonstrating the effectiveness of group requirements in this setting.
+								
+							</p>
+						</td>
+						</tr>
+					<tr><td colspan="2" align="justify"></td></tr>
+				
+					<tr class="parent">
+						<td>
+							<a href="Papers/Intensification-vs-Deforestation.pdf" class="title"><span class="label">Improving Smallholder Welfare While Preserving Natural Forest: Intensification vs. Deforestation</span></a>
+							<br><a href="#" id="abstract">+ Abstract</a>
+						</td>
+						<td class="ca">
+							<pc> with <a><span class="label">D. Iancu and E. Plambeck</span></a></pc>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" align="justify">
+							<p>
+							Increasing the welfare of smallholder farmers in developing countries plays a crucial role in the global effort to reduce worldwide poverty and hunger. On the one hand, smallholders represent a large proportion of the world’s poor and, on the other, they produce the majority of the food consumed in developing countries. This realization has led governments and organizations around the world to implement policies aimed at increasing farmers’ yields. Although most of these policies have resulted in welfare increases, the environmental effects have been varied. While in many settings intensification policies have been linked to a decrease in deforestation, in many other settings the reverse is true. In this chapter we propose a novel explanation of these seemingly contradictory results. We achieve this through studying a detailed operational model of a farmer’s dynamic decisions of land-clearing and production. We show the importance of considering the interaction between random production costs and liquidity constraints faced by smallholder farmers. These two elements are key to our main result: a reduction in the cost of intensification can lead to lower defor- estation rates when the variation in production costs is high enough compared to the cost of intensification. Alternatively, the same reduction in the cost of intensification may lead to higher deforestation rates if the variation in production costs is low enough compared to the cost of intensification. This result helps explain the discrepancies seen in practices and may allow policy makers to better target interventions in order to achieve win-win situations: improvement of smallholder welfare and protection of the natural forest.
 							</p>
 						</td>
 						</tr>
 					<tr><td colspan="2" align="justify"></td></tr>
 
 					<tr class="parent">
-							<td>
-								
-								<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4295527" class="title"><span class="label">Behavioral Externalities of Process Automation</span></a>
-								<br><pd>Submitted</pd>
-								<br><a href="#" id="abstract">+ Abstract</a>
-							</td>
-						<td class="ca"><pc> with <a href="https://www.ruthybeer.com/"><span class="label"><pf>R. Beer</pf></span></a> and <a href="https://sites.google.com/site/anyanqioperations/"><span class="label"><pf>A. Qi</pf></span></a></pc></td>
-					</tr>
-					<tr>
-						<td colspan="2" align="justify">
-							<p>
-								We study the behavioral effects of process automation on human workers interacting with automated tasks. We introduce a stylized model with two workers who complete their tasks sequentially, working toward a joint project to obtain a fixed payment plus a variable bonus that depends on how early the project is completed. We show that workers will complete their tasks as soon as possible if the early completion bonus is high enough. Following the literature, we hypothesize that workers will suboptimally delay project completion. In addition, we predict that automation will alleviate this problem by reducing the uncertainty about task completion, leading to a higher project completion rate and worker productivity. To test these predictions, we conduct an experiment replicating the theoretical model, varying whether a worker collaborates with a coworker or robot. First, we find that workers largely deviate from the optimal policy, as they take longer than what the theory prescribes to complete their tasks or do not complete the project. Second, process automation increases the project completion rate and reduces the project completion time, confirming the benefits of process automation. Interestingly, workers who collaborate with robots take longer to complete their tasks, contradicting our initial hypothesis that process automation has a positive effect on the productivity of human workers. An additional treatment shows that the reduced uncertainty derived from process automation cannot be leveraged to improve workers' productivity in the same way as in a human-human setting and that social preferences are an important driver of this result.
-							</p>
-						</td>
-				    </tr>
-					<tr><td colspan="2" align="justify"></td></tr>
-
-					<tr class="parent">
-							<td>
-								
-								<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4295439" class="title"><span class="label">Competition in Optimal Stopping: Behavioral Insights</span></a>
-								<br><pd>Submitted</pd>
-								<br><a href="#" id="abstract">+ Abstract</a>
-							</td>
-						<td class="ca"><pc>with <pf>P. Ghosh</pf></pc></td>
-					</tr>
-					<tr>
-						<td colspan="2" align="justify">
-							<p>
-								We study settings in which a centralized clearinghouse organizes a market where agents sequentially search among different options under competition. We introduce a stylized model of sequential search, whereby agents are exogenously prioritized by the clearinghouse and must decide when to stop their search to maximize the chosen option's value. We focus on the effect of two market design choices that are motivated in the context of kidney transplants: (i) transparency, i.e., whether agents know their priority relative to the other agents searching; and (ii) the mechanism to collect decisions, namely, whether all agents make their decisions simultaneously or sequentially in decreasing order of priority. In each case, we characterize the optimal policy, which defines a sequence of thresholds that determine when each agent should accept an option depending on the information available. We find that, although the mechanism to collect agents' decisions does not affect the optimal policy, providing information about agents' priorities reduces the overall welfare and fairness of the allocation. We design and conduct a lab experiment that replicates our theoretical model to test these predictions. We find that agents significantly deviate from their corresponding optimal policies. Moreover, we find that the mechanism has a significant effect on their decisions, due primarily to two drivers: (i) saliency of competition and (ii) frustration in regard to accepting but not obtaining an option. Finally, we find that the benefits of opaqueness do not translate to practice, mainly because agents do not incorporate relevant information about the amount of competition.
-							</p>
-						</td>
-				    </tr>
-					<tr><td colspan="2" align="justify"></td></tr>
-
-					<tr class="parent">
-							<td>
-								
-								<a href="https://arxiv.org/abs/2110.00734" class="title"><span class="label">Capacity Planning in Stable Matching: An Application to School Choice</span></a>
-								<br><pd>Submitted</pd>
-								<br><a href="#" id="abstract">+ Abstract</a>
-							</td>
-						<td class="ca"><pc>with <a href="https://cerc-datascience.polymtl.ca/person/federico-bobbio/"><span class="label"><pf>F. Bobbio</pf></span></a>, <a href="http://margaridacarvalho.org"><span class="label"><pf>M. Carvalho</pf></span></a>, <a href="https://tech.cornell.edu/people/andrea-lodi/"><span class="label"><pf>A. Lodi</pf></span></a>,
-							and <a href="https://sites.google.com/view/atorrico"><span class="label"><pf>A. Torrico</pf></span></a></pc></td>
-					</tr>
-					<tr>
-						<td colspan="2" align="justify">
-							<p>
-								Assignment mechanisms for many-to-one matching markets with preferences revolve around the key concept of stability. Using school choice as our matching market application, we introduce the problem of jointly allocating a school capacity expansion and finding the best stable allocation for the students in the expanded market. We theoretically analyze the problem, focusing on the trade-off behind the multiplicity of student-optimal assignments, the incentive properties, and the problem’s complexity. Due to the impossibility of efficiently solving the problem with classical methods, we generalize existent mathematical programming formulations of stability constraints to our setting, most of which result in integer quadratically-constrained programs. In addition, we propose a novel mixed-integer linear programming formulation that is exponentially-large on the problem size. We show that its stability constraints can be separated in linear time, leading to an effective cutting-plane method. We evaluate the performance of our approaches in a detailed computational study, and we find that our cutting-plane method outperforms MIP solvers applied to the formulations obtained by extending existing approaches. We also propose two heuristics that are effective for large instances of the problem. Finally, we use the Chilean school choice system data to demonstrate the impact of capacity planning under stability conditions. Our results show that each additional school seat can benefit multiple students. Moreover, our methodology can prioritize the assignment of previously unassigned students or improve the assignment of several students through improvement chains. These insights empower the decision-maker in tuning the matching algorithm to provide a fair application-oriented solution.
-							</p>
-						</td>
-				    </tr>
-					<tr><td colspan="2" align="justify"></td></tr>
-
-					<tr class="parent">
-							<td>
-								
-								<a href="Papers/two_sided_with_sim_and_sec.pdf" class="title"><span class="label">Two-Sided Assortment Optimization with Simultaneous and Sequential Matches</span></a>
-								<br><pd>Submitted</pd>
-								<br><a href="#" id="abstract">+ Abstract</a>
-							</td>
-						<td class="ca"><pc>with <a href="https://sites.google.com/view/atorrico"><span class="label"><pf>A. Torrico</pf></span></a> and <a href="https://sites.google.com/view/vverdugo/home"><span class="label"><pf>V. Verdugo</pf></span></a></pc></td>
-					</tr>
-					<tr>
-						<td colspan="2" align="justify">
-							<p>
-							We study the two-sided assortment problem recently introduced by [Rios et al., 2022]. A platform must choose an assortment of profiles for each user in each period. Users can either like/dislike as many profiles as they want, and a match occurs if two users see and like each other, potentially in different periods. The platform’s goal is to maximize the expected number of matches generated. We show that the problem is NP-hard, even if we consider two periods and only one-directional sequential matches (i.e., users on one side of the market reach out first, and then the ones on the other side respond). Given the complexity of the problem, we focus on the case with two periods and provide algorithms and performance guarantees for different variants of the problem. First, we show that if matches can only be formed sequentially (i.e., users cannot see each other in the same period), there is an approximation guarantee of 1/3, which can be improved to 1 − 1/e if we restrict to one-directional matches. Second, we show that when we allow simultaneous matches in the first period, there is an approximation guarantee of 1/4, which can be improved to 1/2 if sequential matches are one-directional. Finally, we show that the general problem with simultaneous and sequential matches is more challenging, as the objective function is no longer submodular. Nevertheless, we provide performance guarantees for some specific cases, and we use data from our industry partner (a dating app in the US) to numerically show that the loss for not considering simultaneous matches in the second period when making first-period decisions is negligible.
-							</p>
-						</td>
-				    </tr>
-					<tr><td colspan="2" align="justify"></td></tr>
-
-
-					<tr class="parent">
 						<td>
-							<a href="Papers/strategic_behavior_college.pdf" class="title"><span class="label">Strategic Behavior in the Chilean College Admissions Problem</span></a>
+							<a href="Papers/Benefits_of_Targeting_for_Pandemic_Response_____Paper_Submissions.pdf" class="title"><span class="label">Quantifying and Realizing the Benefits of Targeting for Pandemic Response</span></a>
 							<br><a href="#" id="abstract">+ Abstract</a>
+							<br><pd>Submitted to Operation Research</pd>
 						</td>
 						<td class="ca">
-							<pc> with <a href="https://tlarroucau.github.io/"><span class="label"><pf>T. Larroucau</pf></span></a></pc>
+							<pc> with <a><span>S. Camelo, D.F. Ciocan, D. Iancu, and S. Zoumpoulis</span></a></pc>
 						</td>
 					</tr>
 					<tr>
 						<td colspan="2" align="justify">
 							<p>
-							We analyze the application process in the Chilean College Admissions problem.
-							Students can submit up to 10 preferences, but most of the students do not fill
-							their entire application list ("short-list"). Even though students face no
-							incentives to misreport, we find evidence of strategic behavior as students tend
-							to omit programs if their admission probabilities are too low. To rationalize
-							this behavior, we construct a portfolio problem where students maximize their
-							expected utility of reporting a ROL given their preferences and beliefs over
-							admission probabilities. We adapt the estimation procedure proposed
-							by Agarwal and Somaini (2018) to solve a large portfolio problem. To simplify this task, we show
-							that it is sufficient to compare a ROL with only a subset of ROLs ("one-shot
-							swaps") to ensure its optimality without running into the curse of
-							dimensionality. To better identify the model, we exploit a unique exogenous
-							variation on the admission weights over time. We find that assuming
-							truth-telling leads to biased results. Specifically, when students only include
-							programs if it is strictly profitable to do so, assuming truth-telling underestimates how
-							preferred selective programs are and overstates the value of being unassigned
-							and the degree of preference heterogeneity in the system. In addition, ignoring
-							the constraint on the length of the list can also result in biased estimates,
-							even if the proportion of constrained ROLs is relatively small. Our estimation
-							results strongly suggest that "short-list" students should not be interpret as
-							truth-tellers, even in a seemingly strategy-proof environment.
+								To respond to pandemics such as COVID-19, policy makers have relied on interventions that target specific
+								population groups or activities. Because targeting is operationally challenging and contentious, rigorously
+								quantifying its benefits and designing practically implementable policies that achieve some of these benefits
+								is critical for effective and equitable pandemic control. We propose a flexible framework that leverages
+								publicly available data and a novel optimization algorithm based on model predictive control and trust region
+								methods to compute optimized interventions that can target two dimensions of heterogeneity: age groups
+								and the specific activities that individuals normally engage in. We showcase a complete implementation
+								focused on the Ile-de-France region of France and use this case study to quantify the benefits of dual
+								targeting and to propose practically implementable policies. We find that dual targeting can lead to Pareto
+								improvements, reducing the number of deaths and the economic losses. Additionally, dual targeting allows
+								maintaining higher activity levels for most age groups and, importantly, for those groups that are most
+								confined, thus leading to confinements that are arguably more equitable. We then fit decision trees to explain
+								the decisions and gains of dual-targeted policies and find that they prioritize confinements intuitively, by
+								allowing increased activity levels for group-activity pairs with high marginal economic value prorated by
+								social contacts, which generates important complementarities. Because dual targeting can face significant
+								implementation challenges, we introduce two practical proposals inspired by real-world interventions —
+								based on curfews and recommendations — that achieve a significant portion of the benefits without explicitly
+								discriminating based on age.
 							</p>
 						</td>
-				    </tr>
+						</tr>
 					<tr><td colspan="2" align="justify"></td></tr>
 
-					<tr class="parent">
-							<td>
-								<a href="Papers/mistakes.pdf" class="title"><span class="label">Application Mistakes and Information Frictions in College Admissions</span></a>
-								<br><a href="#" id="abstract">+ Abstract</a>
-							</td>
-						<td class="ca"><pc>with <a href="https://tlarroucau.github.io/"><span class="label"><pf>T. Larroucau</pf></span></a>, A. Fabre and <a href="https://christopherneilson.github.io"><span class="label"><pf>C. Neilson</pf></span></a></pc></td>
-					</tr>
-					<tr>
-						<td colspan="2" align="justify">
-							<p>
-							We analyze the prevalence and relevance of application mistakes in a seemingly strategy-proof centralized college admissions system. We use data from Chile and exploit institutional features to identify a common type of application mistake: applying to programs without meeting all requirements (admissibility mistakes). We find that the growth of admissibility mistakes over time is driven primarily by growth on active score requirements. However, this effect fades out over time, suggesting that students might adapt to the new set of requirements but not immediately. To analyze application mistakes that are not observed in the data, we design nationwide surveys and collect information about students’ true preferences, their subjective beliefs about admission probabilities, and their level of knowledge about admission requirements and admissibility mistakes. We find that between 2% - 4% of students do not list their true most preferred program, even though they face a strictly positive admission probability, and only a fraction of this skipping behavior can be rationalized by biases on students’ subjective beliefs. In addition, we find a pull-to-center effect on beliefs, i.e., students tend to attenuate the probability of extreme events and under-predict the risk of not being assigned to the system. We use these insights to design and implement a large-scale information policy to reduce application mistakes. We find that showing personalized information about admission probabilities has a causal effect on improving students’ outcomes, significantly reducing the risk of not being assigned to the centralized system and the incidence of admissibility mistakes. Our results suggest that information frictions play a significant role in affecting the performance of centralized college admissions systems, even when students do not face clear strategic incentives to misreport their preferences.
-							</p>
-						</td>
-				    </tr>
-					<tr><td colspan="2" align="justify"></td></tr>
+					
+
 
 				</table>
 			</div>
 		</div>
-	</section> -->
+	</section> 
 
 <!-- In progress -->
 	<!-- <section id="seven"> -->
@@ -322,13 +256,13 @@
 	<!-- </section> -->
 
 <!-- Selectd publications -->
-	<!-- <section id="seven">
+	 <section id="eight">
 		<header class="major">
-			<h5>Selected Publications</h5>
+			<h5>Journal Publications</h5>
 		</header>
 		<div class="row">
 			<div class="table-wrapper">
-				<table id="working_papers">
+				<table id="published_papers">
 					<tr class="mini">
 						<col class="mini" width="75%">
 						<col class="mini" width="25%">
@@ -336,100 +270,48 @@
 
 					<tr class="parent">
 						<td>
-							<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3698751" class="title"><span class="label">Improving Match Rates in Dating Markets through Assortment Optimization</span></a>
-							<span class="title">Optimizing Assortments in Two-sided Markets: An Application to Dating</span>
-							<br><pd>Forthcoming in M&SOM</pd>
-							<br><pd>Proceedings of the 2021 ACM Conference on Economics and Computation</pd>
-							<br><pd>Second place, M&SOM Practice Based Competition, 2021</pd>
+							<a href="https://doi.org/10.1287/mnsc.2020.3656" class="title"><span class="label">Value Loss in Allocation Systems with Provider Guarantees</span></a>
 							<br><a href="#" id="abstract">+ Abstract</a>
+							<br><pd>Management Science, 2021</pd>
+							
+							
 						</td>
-						<td class="ca"><pc>with <a href="https://stanford.edu/~dsaban/"><span class="label"><pf>D. Saban</pf></span></a> and <a href="http://www.fanyinzheng.com"><span class="label"><pf>F. Zheng</pf></span></a></pc></td>
+						<td class="ca"><pc>with Y. Gur and D. Iancu</pc></td>
 					</tr>
 					<tr>
 						<td colspan="2" align="justify">
 							<p>
-								We study how online platforms can leverage the behavioral considerations of their users to improve their assortment decisions. Motivated by  dating markets, we consider a platform that must select an assortment of potential partners to show to each user in each day. Users can like/not like each potential partner presented to them, and a match is formed if two users (eventually) like each other. The platform's objective is to maximize the expected number of matches in a time horizon. Using data from a dating company, we estimate the main inputs of our model, namely, the like and log in probabilities, and  find that the number of matches obtained in the recent past has a negative effect on the like behavior of users. Leveraging this finding, we propose a family of heuristics that decide the assortment to show to each user on each day. We show that these heuristics considerably improve the number of matches generated by the platform in  markets simulated based on the real data and further identify the sources of improvement. Finally, we implemented a field experiment that confirms that the improvement achieved by our algorithms also translates into our partner's platform.
+							Many operational settings share the following three features: (i) a centralized planning system allocates tasks to workers or service providers, (ii) the providers generate value by completing the tasks, and (iii) the completion of tasks influences the providers’ welfare. In such cases, the planning system’s allocations often entail trade-offs between the service providers’ welfare and the total value that is generated (or that accrues to the system itself), and concern arises that allocations that are good under one metric may perform poorly under the other. We propose a broad framework for quantifying the magnitude of value losses when allocations are restricted to satisfy certain desirable guarantees to the service providers. We consider a general class of guarantees that includes many considerations of practical interest arising (e.g., in the design of sustainable two-sided markets) in workforce welfare and compensation, or in sourcing and payments in supply chains, among other application domains. We derive tight bounds on the relative value loss and show that this loss is limited for any restriction included in our general class. Our analysis shows that when many providers are present, the largest losses are driven by fairness considerations, whereas when few providers are present, they are driven by the heterogeneity in the providers’ effectiveness to generate value; when providers are perfectly homogenous, the losses never exceed 50%. We study additional loss drivers and find that less variability in the value of jobs and a more balanced supply-demand ratio may lead to larger losses. Lastly, we demonstrate numerically using both real-world and synthetic data that the loss can be small in several cases of practical interest.
+							</p>
+						</td>
+						</tr>
+					<tr><td colspan="2" align="justify"></td></tr>
+					
+					<tr class="parent">
+						<td>
+							<a href="https://doi.org/10.1007/s10479-017-2712-z" class="title">
+							
+							<span class="title">Neighborhood covering and independence on 𝑃<sub>4</sub>-tidy graphs and tree-cographs</span></a>
+							<br><a href="#" id="abstract">+ Abstract</a>	
+							<br><pd>Annals of Operations Research, 2020</pd>
+							
+						</td>
+						<td class="ca"><pc>with G. Durán and M. Safe</pc></td>
+					</tr>
+					<tr>
+						<td colspan="2" align="justify">
+							<p>
+								Given a simple graph G, a set 𝐶⊆𝑉(𝐺) is a neighborhood cover set if every edge and vertex of G belongs to some G[v] with 𝑣∈𝐶, where G[v] denotes the subgraph of G induced by the closed neighborhood of the vertex v. Two elements of 𝐸(𝐺)∪𝑉(𝐺) are neighborhood-independent if there is no vertex 𝑣∈𝑉(𝐺) such that both elements are in G[v]. A set 𝑆⊆𝑉(𝐺)∪𝐸(𝐺) is neighborhood-independent if every pair of elements of S is neighborhood-independent. Let 𝜌<sub>n</sub>(𝐺) be the size of a minimum neighborhood cover set and 𝛼<sub>n</sub>(𝐺) of a maximum neighborhood-independent set. Lehel and Tuza defined neighborhood-perfect graphs G as those where the equality 𝜌<sub>n</sub>(𝐺′)=𝛼<sub>n</sub>(𝐺′) holds for every induced subgraph 𝐺′ of G. In this work we prove forbidden induced subgraph characterizations of the class of neighborhood-perfect graphs, restricted to two superclasses of cographs: 𝑃<sub>4</sub>-tidy graphs and tree-cographs. We give as well linear-time algorithms for solving the recognition problem of neighborhood-perfect graphs and the problem of finding a minimum neighborhood cover set and a maximum neighborhood-independent set in these same classes. Finally we prove that although for complements of trees finding these optimal sets can be achieved in linear-time, for complements of bipartite graphs it is NP-hard.
 							</p>
 						</td>
 						</tr>
 					<tr><td colspan="2" align="justify"></td></tr>
 
-					<tr class="parent">
-						<td><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3231576" class="title"><span class="label">Increased Transparency in Procurement: the Role of Peer-Effects</span></a>
-						<br><pd>Management Science, 67 (2), 7291-7950, 2021.</pd>
-						<br><pd>Second place, Best Working Paper - Behavioral Operations Management Section, 2018</pd>
-						<br><a href="#" id="abstract">+ Abstract</a>
-						</td>
-						<td class="ca"><pc> with <a href="https://www.ruthybeer.com/"><span class="label"><pf>R. Beer</pf></span></a> and <a href="https://stanford.edu/~dsaban/"><span class="label"><pf>D. Saban</pf></span></a></pc></td>
-					</tr>
-					<tr>
-						<td colspan="2" align="justify">
-							<p>
-							Motivated by recent initiatives to increase transparency in procurement, we study the effects of disclosing information about previous purchases in a setting where an organization delegates its purchasing decisions to its employees. When employees can use their own discretion-which may be influenced by personal preferences—to select a supplier, the incentives of the employees and the organization may be misaligned. Disclosing information about previous purchasing decisions made by other employees can reduce or exacerbate this misalignment, as peer effects may come into play. To understand the effects of transparency, we introduce a theoretical model that compares employees' actions in a setting where they cannot observe each other's choices, to a setting where they can observe the decision previously made by a peer before making their own. Two behavioral considerations are central to our model: that employees are heterogeneous in their reciprocity towards their employer, and that they experience peer effects in the form of income inequality aversion towards their peer. As a result, our model predicts the existence of negative spillovers as a reciprocal employee is more likely to choose the expensive supplier (which gives him a personal reward) when he observes that a peer did so. A laboratory experiment confirms the existence of negative spillovers and the main behavioral mechanisms described in our model. A surprising result not predicted by our theory, is that employees whose decisions are observed by their peers are less likely to choose the expensive supplier than the employees in the no transparency case. We show that observed employees’ preferences for compliance with the social norm of "appropriate purchasing behavior" explain our data well.
-							</p>
-						</td>
-				    </tr>
-					<tr><td colspan="2" align="justify"></td></tr>
-					<tr class="parent">
-						<td>
-							<a href="Papers/college admissions.pdf" class="title"><span class="label">Improving the Chilean College Admissions System</span></a>
-							<br> <pd>Operations Research, 69 (4), 1015-1348, 2021.</pd>
-						<br><pd>First place, Doing Good with Good OR - Sutdent Paper Competition, 2018</pd>
-						<br><a href="#" id="abstract">+ Abstract</a>
-						</td>
-						<td class="ca">
-							<pc>with <a href="https://tlarroucau.github.io/"><span class="label"><pf>T. Larroucau</pf></span></a>, G. Parra and <a href="https://sites.google.com/site/cominettiroberto/"><span class="label"><pf>R. Cominetti</pf></span></a></pc>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="2" align="justify">
-							<p>
-							In this paper we present the design and implementation of a new system to solve the Chilean college admissions problem. We develop an algorithm that obtains all stable allocations when preferences are not strict and when all tied students in the last seat of a program (if any) must be allocated. We use this algorithm to determine which mechanism was used to perform the allocation, and we propose a new method to incorporate the affirmative action that is part of the system and correct the inefficiencies that arise from having double-assigned students. By unifying the regular admission with the affirmative action, we have improved the allocation of approximately 3% of students every year since 2016. From a theoretical standpoint, we show that some desired properties, such as strategy-proofness and monotonicity, cannot be guaranteed under flexible quotas. Nevertheless, we show that the mechanism is strategy-proof in the large, and therefore truthful reporting is approximately optimal.
-							</p>
-						</td>
-				    </tr>
-					<tr><td colspan="2" align="justify"></td></tr>
-					<tr class="parent">
-						<td>
-							<a href="Papers/ec_school_choice_chile.pdf" class="title"><span class="label">School Choice in Chile</span></a> <br>
-							<pd>Operations Research, 70 (2), 1066-1087, 2022.</pd><br>
-							<pd>Proceedings of the 2019 ACM Conference on Economics and Computation</pd>
-							<br><pd>Finalist Euro Excellence in Operations Award, 2019</pd>
-							<br><pd>Second place IFORS Prize for OR in Development, 2021</pd>
-							<br><a href="#" id="abstract">+ Abstract</a>
-						</td>
-						<td class="ca">
-							<pc> with <a href="https://www.dii.uchile.cl/~jcorrea/"><span class="label"><pf>J. Correa</pf></span></a>, <a href="http://www.dii.uchile.cl/quien/rafael-epstein/"><span class="label"><pf>R. Epstein</pf></span></a>, <a href="http://www.dii.uchile.cl/~jescobar/"><span class="label"><pf>J. Escobar</pf></span></a>, N. Aramayo, B. Bahamondes, B. Epstein, A. Cristi, N. Epstein C. Bonet, M. Castillo</pc>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="2" align="justify">
-							<p>
-							Centralized school admission mechanisms are an attractive way of improving
-						    social welfare and fairness in large educational systems. In this paper we
-						    report the design and implementation of the newly established school choice
-						    mechanism in Chile, where over 274,000 students applied to more than 6,400
-						    schools. The Chilean system presents unprecedented design challenges that make
-						    it unique. On the one hand, it is a simultaneous nationwide system, making it
-						    one of the largest school admission problems worldwide. On the other hand, the
-						    system runs  at all school levels, from Pre-K to 12th grade, raising at least
-						    two issues of outmost importance; namely, the system needs to guarantee their
-						    current seat to students applying for a school change, and the system has to
-						    favor the assignment of siblings to the same school. As in other systems
-						    around the world, we develop a model based on the celebrated Deferred
-						    Acceptance algorithm. The algorithm deals not only with the aforementioned
-						    issues, but also with further practical features such as soft-bounds and
-						    overlapping types. In this context we analyze new stability definitions,
-						    present the results of its implementation and conduct simulations showing the
-						    benefits of the innovations of the implemented system.
-							</p>
-						</td>
-				    </tr>
-					<tr><td colspan="2" align="justify"></td></tr>
+					
 				</table>
 			</div>
 		</div>
-	</section> -->
+	</section> 
 
 <!-- Published -->
 	<!-- <section id="seven">
